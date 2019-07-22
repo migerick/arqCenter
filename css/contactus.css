@@ -1,0 +1,42 @@
+#form-contactus {
+    z-index: 900 !important;
+    width: 100%;
+    transform: translateY(-60%);
+    position: relative;
+}
+
+#form-contactus .form-header {
+    background-color: #fff;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: -10px;
+    transform: translateX(-50%);
+    border-bottom: 1px solid #eeeeee;
+}
+
+.btn-floating {
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding-top: 3px;
+    background-color: #000;
+}
+
+.btn-floating~p {
+    font-size: .8rem;
+}
+/*Flecha para hacer la pagina hacia arriba*/
+.ir-arriba{
+    display:none;
+    background-repeat:no-repeat;
+    font-size:20px;
+    color:black;
+    cursor:pointer;
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    z-index:2;
+  }

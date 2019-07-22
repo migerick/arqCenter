@@ -1,0 +1,46 @@
+
+/* Pagina completa - Full Screen*/
+.carousel {
+    height: 100vh;
+}
+
+.carousel .carousel-inner {
+    height: 100vh;
+}
+
+.carousel .carousel-inner .carousel-item,
+.carousel .carousel-inner .active {
+    height: 100vh;
+}
+
+/* Backgrounds para el  Carousel */
+.background-image-1{
+    background-image: url("../img/project1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.background-image-2{
+    background-image: url("../img/project2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.background-image-3{
+    background-image: url("../img/project3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/*Flecha para hacer la pagina hacia arriba*/
+.ir-arriba{
+    display:none;
+    background-repeat:no-repeat;
+    font-size:20px;
+    color:black;
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    z-index:2;
+  }

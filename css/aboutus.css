@@ -1,0 +1,122 @@
+/* fotos para los integrantes del quipo */
+
+#first-worker .photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url('../img/w_first.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#second-worker .photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url('../img/w_second.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#third-worker .photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url('../img/w_third.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#fourth-worker .photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url('../img/w_fourth.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+/* Diseño de los card para los integrantes del equipo */
+
+.card {
+    border: 1px solid #c6c6c6;
+    border-top: 2px solid #b21011;
+    padding: 10px;
+}
+
+.card .description p {
+    font-size: .8rem !important;
+}
+
+.card .name-job {
+    text-align: center;
+}
+
+.card .name-job h5 {
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.card .name-job h6 {
+    font-size: .7rem;
+}
+
+.card .contact span {
+    font-size: .59rem;
+}
+
+@media (max-width: 768px) {
+    .card .contact p,
+    .card .description p {
+        text-align: center !important;
+    }
+}
+
+
+/*parallax*/
+
+.parallax {
+    /* Imagen usada */
+    background-image: url("../img/parallax.jpeg");
+    /* alto especificado */
+    height: 350px;
+    /* Efecto Scroll */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax p {
+    text-shadow: 0px 1px 1px #333;
+}
+
+@media (max-width: 768px) {
+    .parallax {
+        height: 150px;
+    }
+    .parallax p {
+        font-size: 1.2rem;
+    }
+}
+/*Flecha para hacer la pagina hacia arriba*/
+.ir-arriba{
+    display:none;
+    background-repeat:no-repeat;
+    font-size:20px;
+    color:black;
+    cursor:pointer;
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    z-index:2;
+  }

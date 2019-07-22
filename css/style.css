@@ -1,0 +1,58 @@
+/* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
+
+html,
+body,
+header,
+.view {
+    height: 100% !important;
+}
+
+.carousel,
+.carousel-item,
+.carousel-item.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+nav{
+    background: rgba(2, 2, 2, 0.5);
+}
+
+/* Navbar - Change Color Animation */
+
+@media (max-width: 992px) {
+    .navbar {
+        background-color: #1C2331 !important;
+    }
+}
+
+.top-nav-collapse {
+    background-color: #1C2331;
+}
+
+
+/* Footer color for sake of consistency with Navbar */
+
+.page-footer {
+    background-color: #1C2331;
+}
+
+.hr-left-banner {
+    width: 1.8rem;
+    border-bottom: 2px solid #b71113;
+}
+/*Flecha para hacer la pagina hacia arriba*/
+.ir-arriba{
+    display:none;
+    background-repeat:no-repeat;
+    font-size:20px;
+    color:black;
+    cursor:pointer;
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    z-index:2;
+  }

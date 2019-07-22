@@ -1,0 +1,136 @@
+/* FORM.css */
+
+
+/* tiempo de cambio de bgs del Carousel*/
+
+.carousel {
+    transition: transform 1s ease !important, opacity .5s ease-out;
+}
+
+
+/* Pagina completa - Full Screen*/
+
+.carousel {
+    height: 100vh;
+}
+
+.carousel .carousel-inner {
+    height: 100vh;
+}
+
+.carousel .carousel-inner .carousel-item,
+.carousel .carousel-inner .active {
+    height: 100vh;
+}
+
+
+
+/* Backgrounds para el  Carousel */
+
+.carousel-item:nth-child(1) {
+    background-image: url("../img/project2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-item:nth-child(2) {
+    background-image: url("../img/carousel2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-item:nth-child(3) {
+    background-image: url("../img/carousel3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+/* Cartas de  about us */
+
+.card-content-aboutus {
+    padding: 2rem;
+    border-radius: 0;
+}
+
+.card-aboutus {
+    flex-grow: 1;
+    flex-basis: 0;
+    display: flex;
+    align-items: center;
+}
+
+.card-aboutus h2 {
+    font-size: 100px;
+}
+
+.btn.btn-md {
+    font-size: 1rem;
+    padding: 0.2rem 0.6rem;
+    margin: 0;
+    border-radius: 0;
+}
+
+.btn.btn-elegant {
+    background: #000;
+}
+
+
+/*hr para los titulos*/
+
+.hr-title {
+    background-color: #a92f36;
+    width: 3em;
+    height: 1px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+/*div para los bordes de los contenedores de los parrafos*/
+
+.corner {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.corner-left {
+    border-top: 1px solid #a92f36;
+    border-left: 1px solid #a92f36;
+    left: 0;
+    top: 0;
+}
+
+.corner-right {
+    border-bottom: 1px solid #a92f36;
+    border-right: 1px solid #a92f36;
+    right: 0;
+    bottom: 0;
+}
+
+.container-cards-service {
+    top: 2rem;
+    padding: 1rem;
+}
+
+
+/*padding del contenedor de las imagenes*/
+
+.card-columns .card .card-body {
+    padding: 0.1rem;
+}
+
+/*Flecha para hacer la pagina hacia arriba*/
+.ir-arriba{
+    display:none;
+    background-repeat:no-repeat;
+    font-size:20px;
+    color:black;
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    z-index:2;
+  }
